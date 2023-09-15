@@ -11,7 +11,7 @@ html {
 
 
 body {
-  background-color: rgb(228, 209, 209);
+  background-color: rgb(255, 255, 255);
   overflow-x: hidden;
   padding: 15px;
 }
@@ -21,7 +21,7 @@ body {
  
   line-height: 50px;
   font-family: "Courier New", Courier, monospace;
-  background-color: rgb(228, 209, 209);
+  background-color: rgb(255, 254, 254);
   width: 100%;
   margin: auto;
   padding-top: 15px;
@@ -369,9 +369,7 @@ button{
 }
 
 @media only screen and (max-width: 376px) {
-  body {
-    background-color: rgb(126, 110, 109);
-  }
+ 
 
   .gallery {
     display: block;
@@ -389,12 +387,12 @@ button{
  
 }
 body {
-  background-color: rgb(215, 213, 213);
+  background-color: rgb(228, 209, 209);
   overflow-x: hidden;
   padding: 15px;
 }
 .header-profile{
-  background-color: rgb(215, 213, 213);
+  background-color: rgb(228, 209, 209);
 
 }
 .container {
