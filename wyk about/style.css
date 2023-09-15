@@ -332,7 +332,7 @@ button{
 
 
 
-@media only screen and (max-width: 820px) and (min-width: 376px) {
+@media only screen and (max-width: 820px) and (min-width: 416px) {
   body {
     background-color: rgb(185, 168, 167);
   }
@@ -368,7 +368,7 @@ button{
   
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 416px) {
  
 
   .gallery {
