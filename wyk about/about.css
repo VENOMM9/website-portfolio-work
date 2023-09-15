@@ -1,0 +1,193 @@
+
+body{
+    padding:30px;
+    background-color:#4d4949;
+}
+
+.about-div {
+  text-align: center;
+ 
+  line-height: 50px;
+  font-family: "Courier New", Courier, monospace;
+ color: rgb(255, 255, 255);
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.picture-para {
+  font-size: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgb(216, 211, 211);
+}
+
+.picture-para:hover {
+  background-color: rgb(73, 73, 69);
+  box-shadow: 20px 40px 150px 6px #d29855;
+}
+
+
+.display-div{
+    display: flex;
+    justify-content: space-between;
+    font-family: serif; 
+    color: rgb(162, 156, 156);;
+    background-color: rgb(45, 43, 42);
+    /* padding:25px; */
+    border-radius: 15px;
+    box-shadow: 5px 50px 120px 120px #282727;
+    /* gap:10px; */
+    font-size: 20px;
+    line-height: 35px;
+
+
+    
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    width:100%;
+    max-height:100%;
+    overflow: hidden;
+    /* border-radius: 20px; */
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+
+.about-header{
+    /* margin-left: 30px; */
+    font-size:20px;
+    max-width: 50%;
+    text-align: center;
+    background-color: rgb(45, 43, 42);
+    padding:15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    
+   
+}
+
+.fa {  
+    padding: 10px;  
+  text-align: center;  
+    margin: 15px 1px;  
+    font-size: 40px;  
+    width: 30px;  
+    display: grid;
+  }  
+  .fa-vk {  
+    background: #1f49a1;  
+    color: white;
+    border-radius: 100px;
+  
+  }  
+  .fa-tiktok {  
+    background: #55ACEE;  
+    color: white;  
+    border-radius: 100px;
+
+  }  
+ 
+  
+  .fa-instagram {  
+    background: #882a12;  
+    color: rgb(255, 255, 255);  
+    border-radius: 100px;
+
+  }  
+  
+  .fa-telegram {  
+    background: #2d80aa;  
+    color: white;
+    border-radius: 100px;
+  
+  }  
+ 
+  .fa:hover {  
+      opacity: 0.9;  
+  }  
+
+  @media only screen and (max-width: 820px) and (min-width: 375px) {
+    .display-div {
+      display: block;
+      background-color:  rgb(45, 43, 42);
+    }
+  
+    .about-header{
+      color: rgb(199, 199, 199);
+      max-width: 100%; 
+      background-color:  rgb(55, 54, 54);
+      
+
+     
+  }
+  body{
+    padding:30px;
+    background-color:#b7adad;
+}
+
+.about-div {
+  color: rgb(255, 255, 255);
+  
+  
+  }
+
+  @media only screen and (max-width: 375px) and (min-width: 50px) {
+    .display-div {
+      display: block;
+      background-color: rgb(45, 43, 42);
+
+    }
+  
+    .about-header{
+      color: rgb(167, 156, 156);
+      max-width: 100%; 
+      background-color:#4d4949;
+      
+      
+  }
+  body{
+    padding:30px;
+    background-color:#4d4949;
+}
+
+.about-div {
+ color: rgb(255, 255, 255);
+
+  }
+}}
+
+@media only screen and (max-width: 375px) {
+  .display-div {
+    display: block;
+    background-color: rgb(45, 43, 42);
+
+  }
+
+  .about-header{
+    color: rgb(167, 156, 156);
+    max-width: 100%; 
+    background-color:#4d4949;
+    
+    
+}
+body{
+  padding:30px;
+  background-color:#4d4949;
+}
+
+.about-div {
+color: rgb(255, 255, 255);
+
+}
+}
